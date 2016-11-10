@@ -1,0 +1,12 @@
+{
+    "name": "joolanders/joomlazooenvironment",
+    "description": "Joomla and ZOO installation. Test environment for ZL products",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "joolanders",
+            "email": "ddavidov@mindk.com"
+        }
+    ],
+    "require": {}
+}
