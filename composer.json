@@ -1,12 +1,22 @@
 {
-    "name": "joolanders/framework-test-env",
+    "name": "zoolanders/framework-test-env",
     "description": "Joomla and ZOO installation. Test environment for ZL products",
     "license": "MIT",
     "authors": [
         {
-            "name": "joolanders",
-            "email": "ddavidov@mindk.com"
+            "name": "ZOOlanders",
+            "email": "info@zoolanders.com"
         }
     ],
-    "require": {}
+    "repositories": [
+        {
+            "type": "vcs",
+            "url":  "https://github.com/joolanders/framework.git"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "require-dev": {
+        "zoolanders/framework": "dev-develop"
+    }
 }
